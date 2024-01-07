@@ -196,16 +196,148 @@
   font-weight: 400;
 }
 
-.offer-left-section{
-    margin-left: 240px;
-    width: 64%
+.offer-left-section {
+  margin-left: 240px;
+  width: 64%;
 }
-.offer-middle-section{
-    margin-right: 50px;
-
+.offer-middle-section {
+  margin-right: 50px;
 }
-.offer-right-section{
-    margin-right: 200px;
-    width: 40%;
+.offer-right-section {
+  margin-right: 200px;
+  width: 40%;
+}
 
+/* holiday sale section styles */
+
+.holiday-sale {
+  text-align: center;
+}
+.functional-heading {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday-sale-title {
+  color: #f00;
+  font-family: Merriweather;
+  font-size: 62px;
+  font-weight: 900;
+}
+
+.holiday-sale-title span {
+  color: black;
+}
+
+.sale-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  width: 1068px;
+  margin: auto;
+  margin-top: -45px;
+}
+.discount-img-container {
+  display: flex;
+}
+/* gift portfolio section styles */
+
+.gift-section {
+  text-align: left;
+  margin-left: 290px;
+}
+
+.gift-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.portfolio-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 38px;
+  font-weight: 900;
+}
+.portfolio-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  width: 50%;
+}
+
+/* image grid section styles */
+
+.img-grid-row1 {
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.img-grid-row2 {
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+}
+.img-grid {
+  transition: transform 1s;
+}
+.gif-item-img img {
+  transition: transform 1s;
+  border-radius: 16px;
+}
+
+.gif-item-img :hover {
+  transform: translate(20px, 20px);
+  box-shadow: 10px 10px 20px 10px rgba(30, 2, 2, 0.356);
+}
+
+/* newsletter section styles */
+.newsletter-section {
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 50px;
+  margin: 100px;
+}
+.subscribe-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+.newsletter-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  width: 896px;
+  margin: auto;
+}
+
+.email-subscribe input {
+  border-radius:50px 0px 0px 50px;
+  padding: 30px 200px;
+  border: none;
+}
+
+.email-subscribe ::placeholder {
+  color: rgba(7, 2, 17, 0.3);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+.btn-subscribe {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  padding: 25px 56px;
+  border: none;
 }
