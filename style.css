@@ -107,8 +107,47 @@
   color: #fff;
 }
 
-.year-img{
-padding: 90px;
+.year-img {
+  padding: 90px;
 }
 
-/* date and time section styles */
+/* place and time section styles */
+.time-and-place {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 1320px;
+  height: 482px;
+  background-position: center;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 16px;
+}
+
+.time-and-place-info {
+  text-align: center;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding: 50px;
+}
+.time-title {
+  color: #f00;
+}
+.btn-join-now {
+  text-align: center;
+}
+.btn-join-now button {
+  padding: 16px 32px;
+  border-radius: 8px;
+  background: #f00;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+}
