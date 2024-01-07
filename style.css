@@ -238,6 +238,7 @@
   width: 1068px;
   margin: auto;
   margin-top: -45px;
+  margin-bottom: 50px;
 }
 .discount-img-container {
   display: flex;
@@ -319,7 +320,7 @@
 }
 
 .email-subscribe input {
-  border-radius:50px 0px 0px 50px;
+  border-radius: 50px 0px 0px 50px;
   padding: 30px 200px;
   border: none;
 }
@@ -340,4 +341,49 @@
   background: #f00;
   padding: 25px 56px;
   border: none;
+}
+/* footer section styles */
+footer {
+  background: #070211;
+  margin: 0;
+}
+hr {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+}
+.address-section {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
+.address,
+.contacts {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+}
+.copyright {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  padding: 100px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.copyright > a {
+  text-decoration: none;
+  color: #fff;
 }
