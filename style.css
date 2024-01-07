@@ -1,0 +1,114 @@
+* {
+  margin: o;
+  padding: 0;
+}
+
+/* banner styles */
+.banner-container {
+  color: #fff;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("assets/Banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  max-width: 1320px;
+  height: 600px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.banner-new-year {
+  padding: 100px;
+}
+
+.new-year-greetings {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.new-year-title {
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.discount {
+  text-align: center;
+}
+
+.discount-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+}
+
+.holiday-deal {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.category-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.new-year-img {
+  height: 500px;
+}
+/* main section styles */
+.welcome-section {
+  display: flex;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("assets/Vectorrr.png");
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1320px;
+  height: 600px;
+  margin: auto;
+  margin-top: 100px;
+  color: #fff;
+  text-align: left;
+  padding-left: 80px;
+}
+
+.welcome-title {
+  font-family: Merriweather;
+  font-size: 44px;
+  font-weight: 700;
+  letter-spacing: 7.04px;
+}
+
+.welcome-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.btn-join {
+  margin-left: 70px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.btn-join > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.year-img{
+padding: 90px;
+}
+
+/* date and time section styles */
