@@ -150,6 +150,7 @@
   font-weight: 700;
   text-transform: uppercase;
   border: none;
+  cursor: pointer;
 }
 /* offer section styles */
 .offer-section {
@@ -242,6 +243,21 @@
 }
 .discount-img-container {
   display: flex;
+  background-image: url("assets/Rectangle 2.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.giftbox-img{
+position: relative;
+left: 300px;
+}
+.girl-img{
+  margin-left: 70px;
+}
+.fifty-discount-img{
+  position: relative;
+  left: 220px;
+  top: 60px;
 }
 /* gift portfolio section styles */
 
