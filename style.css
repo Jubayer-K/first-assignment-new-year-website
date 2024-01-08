@@ -337,7 +337,8 @@ left: 300px;
 
 .email-subscribe input {
   border-radius: 50px 0px 0px 50px;
-  padding: 30px 200px;
+  padding: 30px;
+  padding-right: 200px;
   border: none;
 }
 
